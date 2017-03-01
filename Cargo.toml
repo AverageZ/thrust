@@ -1,0 +1,12 @@
+[package]
+name = "thrust"
+version = "0.1.0"
+authors = ["AverageZ <alexzajac@live.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
